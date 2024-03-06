@@ -1,0 +1,960 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017E2F518BB66FF136309DCA6F72E62D /* WebMessagingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B8411A455C3DB4C37C25C24A1782D8 /* WebMessagingAPI.swift */; };
+		0256C871817192FDE2081926EA25EC57 /* SearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4E1DA3CF1B7BC30702E44EDCF94EE /* SearchAPI.swift */; };
+		02F768A82845CEE6FE9DA5D06F7A2D83 /* EmailsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7CCD577BC6D100E6FA520F1AB83E0 /* EmailsAPI.swift */; };
+		0307732BC6B232311F95F50A241A2688 /* FlowsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57535C71ECD9CCCE308A569F015F2B6 /* FlowsAPI.swift */; };
+		033F6D834F8EAB94C230E2A990BA9B5B /* PureCloudPlatformClientV2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05773C2616BBA5C6AD673CC04884D343 /* PureCloudPlatformClientV2-dummy.m */; };
+		05BE491C1B2327EFB8287245BF5F45D0 /* QualityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA43C631C96DB88CFD088D12F380846D /* QualityAPI.swift */; };
+		072CEFE5FCBDE39089F40A93E66004B4 /* ArchitectAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC38DE87EA4094C59747DCEF73FC9E6 /* ArchitectAPI.swift */; };
+		09874D4504B254DAED98A8439CD74D97 /* TextbotsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E144A9A7B6093CD11531148CFDBF824 /* TextbotsAPI.swift */; };
+		0F1CD98688EEBB75B84730D108D50677 /* StationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DBCEDE28ABD4CD15BBD9378C82D33A /* StationsAPI.swift */; };
+		0FB2F0C60DCD4BC3F4B3FCD1B4DB16ED /* ResponseManagementAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631EA09B87D437E8DEEC5FD74632DC86 /* ResponseManagementAPI.swift */; };
+		1030C20F494E9F4738A09FE6DE087326 /* JSONEncodingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB48E3F8A964FF675F3B3B3561F29DB /* JSONEncodingHelper.swift */; };
+		11AEF47F91B26B7F8758BC00B3233576 /* WebDeploymentsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE084D57CA31142E493481DAB76B5F9C /* WebDeploymentsAPI.swift */; };
+		12694DCAA76A9F2DF41FBEF8F4B8B628 /* InfrastructureAsCodeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DC2A7C51ADDC4AF1124473EE8668E7 /* InfrastructureAsCodeAPI.swift */; };
+		1BBB873C51341F48B55E5039533E3E9A /* LicenseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D6985BE24C45ACE0780E781DD077ED /* LicenseAPI.swift */; };
+		1C588D752A8AEF63A48029EDFB28BFB8 /* SuggestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023BCEE2C065C24383278343C4EFAADD /* SuggestAPI.swift */; };
+		208E423E1E4717319DEB93A40F66EC64 /* ExternalContactsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694F3718E90DBA65CF69867C3F8F4CF /* ExternalContactsAPI.swift */; };
+		21DC05D029EB9EEBCE72393E1DA722D8 /* LocationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3E31E87977F1ECD8B4C221F32A8D80 /* LocationsAPI.swift */; };
+		2320D7F4D7AF36027A445CFA053DDCFB /* PlatformAPIModelsP5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E72DF56C2D75F6ECD4BF43A898CBDD /* PlatformAPIModelsP5.swift */; };
+		25537D0C0D32FF06E877EE66547BC7A6 /* GreetingsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A87EEFEC0B7B7577F0C746DFB11EDEC /* GreetingsAPI.swift */; };
+		25E4315B3D29A135DA6D31D0614EAE38 /* OrganizationAuthorizationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9439029E6AFC441BB9F79FB18CF10 /* OrganizationAuthorizationAPI.swift */; };
+		29DE71EF78E0C11A513AAAB192C70082 /* NotificationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C1E9DBDB73CEE0F7EC0494AEC8AED /* NotificationsAPI.swift */; };
+		2E604FE2AFBC40DAFFA4EC2CAFF6D9FC /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D111B248355DA1D1DE6516D92A2254B /* UsersAPI.swift */; };
+		2E942F0867D048162F5B5FB52E1C4227 /* SpeechTextAnalyticsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7161C7BA4F3FE947EB834387B773732E /* SpeechTextAnalyticsAPI.swift */; };
+		2EB6555EA385170D86AF53452F64BA3A /* FaxAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FBE8DBA0C185D98DE194E407FEFA51 /* FaxAPI.swift */; };
+		32DD6BA839A32DF3E9234FAB274728CB /* TelephonyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DA0F1AAD01F7D20B29D3FEDE521629 /* TelephonyAPI.swift */; };
+		33A9BDE48F06786DB26009916DEFDBD2 /* KnowledgeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF54676393A8AAC8960BD3F2AF7C013 /* KnowledgeAPI.swift */; };
+		3BCA8B8A7469C30E5C4A2429F0277FB7 /* PlatformAPIModelsP1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ADD4087D819EE3D76F13C2F6F8020B /* PlatformAPIModelsP1.swift */; };
+		44BD19D309F2186D65CE3A9B17125889 /* TelephonyProvidersEdgeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E08386F6506AE7975B0C26F82AF397F /* TelephonyProvidersEdgeAPI.swift */; };
+		4816066328AE0BC3A81EA847D5082310 /* TeamsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF27B2DD10FAFF3DD694E0599186EF /* TeamsAPI.swift */; };
+		496EAB5417F09ED1719E22DC81A58187 /* PresenceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4444038D1EA3A2570DFA29FA1CCEEC2 /* PresenceAPI.swift */; };
+		4BA031F353E91DA1722BF210147EFE80 /* VoicemailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69484BA8D6ADFB3D0ED3D0917747769F /* VoicemailAPI.swift */; };
+		4FAC67E2A432B2688771AA85477FDB59 /* UsageAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458DCE07B3FDE6E7AE7CA8403823E045 /* UsageAPI.swift */; };
+		5106DFF3457F923D8F73412D016B25C9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79B21BB8AC2CD0B5A727AFAB9B26B5 /* Models.swift */; };
+		51FE9328DBF24A7522091F9EDCB0D242 /* Querying.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE4C56C419128A864290201E39543E /* Querying.swift */; };
+		538715A79A03057B150F9FC53F4DB866 /* RoutingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23723BA32F3F1D93E3998F1AC19D9EA0 /* RoutingAPI.swift */; };
+		560EA3C2FC0F4077A1BD5B27BC8F8E68 /* OutboundAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B553503E99BAB8116CC71E3D4AB6AAEC /* OutboundAPI.swift */; };
+		58C78140D92E6BD65420237194B82DC0 /* JourneyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964E095A61DA58E9D4FF198004CCA47E /* JourneyAPI.swift */; };
+		58C8AF594CF29FD900C3E71E566567F3 /* LearningAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE61D501B8D43780E20D319835FEB2 /* LearningAPI.swift */; };
+		5A400D720053DB7B505DDAC74C2E4D27 /* TokensAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC8BB33B451426628424AD50BF27D64 /* TokensAPI.swift */; };
+		5DDA82FC496025895AEC55633A77A7EF /* UrlSessionImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12859FCAD29DAD8E3BC6C34B6383789 /* UrlSessionImplementations.swift */; };
+		5DEC29C1820B29504FD32E67130153B3 /* GeneralDataProtectionRegulationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30314782BF2F5B645CDEB9FBB378EFB0 /* GeneralDataProtectionRegulationAPI.swift */; };
+		60CA664F3C7309CB5385E13C8BE1D555 /* RecordingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD67C3B8096633E279A4B341C0520D9A /* RecordingAPI.swift */; };
+		61387BAD978B75AEB2B6831ED500B45C /* CoachingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0EB5B5DC26607CADF20C0CC78E64A6 /* CoachingAPI.swift */; };
+		61A047D8933896081106EF49964E14AE /* EventsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9763C134E7A0F8348DB245D1634946 /* EventsAPI.swift */; };
+		653D16A52EA0AC8E15686677DC988F36 /* OrganizationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50106949A61B9920E18236D3D3C2E581 /* OrganizationAPI.swift */; };
+		654AEFF872C908CDEC3109B77CDD81B0 /* GamificationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859147E95D511381097B5B8C5FECA96F /* GamificationAPI.swift */; };
+		65C70CF08F5CA6719E4C7328653EBBAC /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3145B2A8D893FC6D6AFD1A67446DC0E6 /* APIs.swift */; };
+		6ACCB2F8B67224487067491B9AF85E69 /* IdentityProviderAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DF048AE98010288D522DFD82D6C12 /* IdentityProviderAPI.swift */; };
+		6D1FD3D91DF1C461FDD86554D4531D3C /* UtilitiesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B7F1C4C44B2A32150FC47BB39D459B /* UtilitiesAPI.swift */; };
+		746F8726AFEF918D6C0D0B32A5846902 /* Pods-gc-auth-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13D17728C928C85A53806EC2716E82 /* Pods-gc-auth-ios-dummy.m */; };
+		7796C72958F3E04F2F13626F2FFAF876 /* CodableHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A86AC77FB8FF95659692E19730E8BF /* CodableHelper.swift */; };
+		863C6B92720C1FCCB2018AB7E4255B69 /* PlatformAPIModelsP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7353564B5EF0416F920BB924619B68A /* PlatformAPIModelsP2.swift */; };
+		87BF573C181F9F0FE9C5ACFDAAED825F /* OperationalEventsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB5F1C8239CD7220E337D66A1C7554C /* OperationalEventsAPI.swift */; };
+		8AE8FF62FCDE3E69F98BB51FAD75AA10 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0476EB83B757005365917287776F90 /* APIHelper.swift */; };
+		9226651DFA7D06741FCD7365610864CA /* IntegrationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EA241A70F8FB9B0D3A47B3D385C6CF /* IntegrationsAPI.swift */; };
+		94BA4178FE0343D29B5D75E564AC5716 /* MessagingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C790E456E8EF245F138D29A16DA7B /* MessagingAPI.swift */; };
+		962951405221F471BDF77ED68D6E5DDE /* GroupsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80580DE1ED06FAA5F1BD707F0DC3693 /* GroupsAPI.swift */; };
+		97CDB898FCFC62F8BF3B5C06CD3D26C4 /* AuditAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829C6116FEAA4BC5714967E9C8551192 /* AuditAPI.swift */; };
+		99A431581838CD7C333DAAA31E6DE4B6 /* WidgetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306CEF058E47A634916CDD174AE7EAC6 /* WidgetsAPI.swift */; };
+		9A549BFBBFA7AF27F572A9A96A01DCC6 /* LogCaptureAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D38BACB8DE004D1CFF6FE9DF60A2EE4 /* LogCaptureAPI.swift */; };
+		9A604FD51BAD43E2CD28B6D7F3863076 /* AlertingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF42FE2A6B64A8B3244223C0AF97994 /* AlertingAPI.swift */; };
+		9FDF76A16C8691BDDDA0CE0242D0882C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A199C35795091588E39039E4FAF71BCD /* ObjectsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130691267A0156A473C3EB9764BA6913 /* ObjectsAPI.swift */; };
+		A47A25C644855A5A0676D651D01F9218 /* GeolocationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0780788DC99D904C0876CF24FD1FEC4 /* GeolocationAPI.swift */; };
+		AD721E07D528DB49571FF135746E62EA /* PlatformAPIModelsP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14D19D193797F80A3E1E6B6EE7AF56 /* PlatformAPIModelsP3.swift */; };
+		B01DD3B5D2878FC2F93DB25E52E997ED /* UserRecordingsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F483119760C4309266CC48F9377385 /* UserRecordingsAPI.swift */; };
+		B23B5FEE23F30185FDCC7EEEB476B560 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93F77A553800B8187AD886D9A3988F /* Extensions.swift */; };
+		B907D68C12C5BB6B0538537840098D10 /* PureCloudPlatformClientV2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CEFF5969337CEFE4DDEAC0109426DC /* PureCloudPlatformClientV2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF977813485C2EDADC11602FAC5C538 /* ProcessAutomationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FAC1A116C8A87D80AB0FE7B5234216 /* ProcessAutomationAPI.swift */; };
+		BC0D96BB6006027AC56E0AC9E567E6E9 /* MobileDevicesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C1D4E2F3F5FC1B01759315847B4C8 /* MobileDevicesAPI.swift */; };
+		BC3D2DA39A693BCD24FCBDAE4B9FD55B /* DataExtensionsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A746E68507061FD82725DB76A90D5E8 /* DataExtensionsAPI.swift */; };
+		BC91FADA312EC96A3629C402A2744DD5 /* DownloadsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26130A8770D8ED9ACDC98F39493EF3BB /* DownloadsAPI.swift */; };
+		C01C9463C1152F8B427FC397D0138A96 /* PlatformAPIModelsP4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704ADB54E5AC3F8524FC97896566BA69 /* PlatformAPIModelsP4.swift */; };
+		C332E22C37B16EF81C59A31D2D874616 /* ChatAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96C7EBB2113D69FA99B63FC135E00FF /* ChatAPI.swift */; };
+		C40829F91E5D0182763F327026874E44 /* ConversationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A6D91696E7A92FC98C34E7652C302 /* ConversationsAPI.swift */; };
+		C60D0479EBC32AB5DA5D20EFC214497E /* SCIMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8ED893EFB5B76519C7718897D30077 /* SCIMAPI.swift */; };
+		CB85B04DE88CEF8A3A44666D5BBB157A /* ScreenRecordingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D95C1421922D35427C72F029B7E7CC /* ScreenRecordingAPI.swift */; };
+		CC5C422B349219311188BDBF73D94AFF /* ContentManagementAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5662EADE26F29838793331BDB1A118E9 /* ContentManagementAPI.swift */; };
+		D80C4B0E58F3EFBAFA6977A938601DB1 /* Pods-gc-auth-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30000BC8E84E2F4C7F29E170E34956BE /* Pods-gc-auth-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE5623BFC650E85C990B6AEC24C80F4B /* UploadsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57EA030147DECA766C84C2D5E023AE5 /* UploadsAPI.swift */; };
+		E15B5CB2E266FA07B147196B5A415C54 /* WebChatAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB312D37428B912EF896CC8F9A7850 /* WebChatAPI.swift */; };
+		E50BF5A8965C8DB7221869492F313209 /* SdkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD4CE0EA3283DC37D5950498FCCECF1 /* SdkConfiguration.swift */; };
+		E54B8CF1C739AE1BD9BDDC9FD981524F /* OAuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C8C04A0DC09A9B24F8DC67BB9285BE /* OAuthAPI.swift */; };
+		E8A58C305713CF6DAB82469FEB3E7C9A /* LanguagesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C45FF207FBD7D380F684800EA6AB38E /* LanguagesAPI.swift */; };
+		EABF994D643806659F8C4F267E351BDB /* ScriptsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE3B3A659F0B1EEC2044076EA7F41E6 /* ScriptsAPI.swift */; };
+		EB1A88EB936C5C351B667DA84A46491A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB898ABBA74C0E480674F6BB67B20F07 /* WorkforceManagementAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD1EBA93CF04E95E627BFCAB12457DC /* WorkforceManagementAPI.swift */; };
+		EC7C195CC9AA6A830895A5C5552FD977 /* LanguageUnderstandingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C18A8693B531FA3CBEBBE04F5C2D80B /* LanguageUnderstandingAPI.swift */; };
+		ECE20AE191165253563A12FE021A8C66 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365BEEF3318C764066D25E65E4623584 /* JSON.swift */; };
+		F0C1EA2A4F94A7BB72F372807D5180D0 /* Initialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEA8DCB362A50A3CD1291E8322300E7 /* Initialization.swift */; };
+		F207F6431CD80B94A05843A150473218 /* SettingsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBE9E51DE48F43A59397CA3D2CC393 /* SettingsAPI.swift */; };
+		F30CCFD962E551725A21EC436BA02B6A /* AnalyticsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1032A9CBD9E389F21717DF2BE22B68 /* AnalyticsAPI.swift */; };
+		F7CFA78C6E0CDE2B0018222827CEE602 /* CarrierServicesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465957A99D9B83249BB7AE6F8C3E177E /* CarrierServicesAPI.swift */; };
+		FEAFB2EBEBA0725D1F27361206851246 /* BillingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C16ADC493BFD9820DD2D37AFB4D3A /* BillingAPI.swift */; };
+		FFCC4C70E65E8DD78B6A373E28C72217 /* AuthorizationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF53C9CDCF13AFA123183EA4E16B5B5B /* AuthorizationAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37669B987FE3885F342DBA9567FA3278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9735C173F115309C7F799E0518ECDED4;
+			remoteInfo = PureCloudPlatformClientV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023BCEE2C065C24383278343C4EFAADD /* SuggestAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuggestAPI.swift; path = build/src/APIs/SuggestAPI.swift; sourceTree = "<group>"; };
+		04C9A43B9D55DC89CC62FB9FA33CDFEB /* Pods-gc-auth-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gc-auth-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		05773C2616BBA5C6AD673CC04884D343 /* PureCloudPlatformClientV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureCloudPlatformClientV2-dummy.m"; sourceTree = "<group>"; };
+		0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureCloudPlatformClientV2; path = PureCloudPlatformClientV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C18A8693B531FA3CBEBBE04F5C2D80B /* LanguageUnderstandingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageUnderstandingAPI.swift; path = build/src/APIs/LanguageUnderstandingAPI.swift; sourceTree = "<group>"; };
+		0D38BACB8DE004D1CFF6FE9DF60A2EE4 /* LogCaptureAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCaptureAPI.swift; path = build/src/APIs/LogCaptureAPI.swift; sourceTree = "<group>"; };
+		130691267A0156A473C3EB9764BA6913 /* ObjectsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectsAPI.swift; path = build/src/APIs/ObjectsAPI.swift; sourceTree = "<group>"; };
+		179D72DCBCD8806B76836E67BBBB23F4 /* Pods-gc-auth-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-gc-auth-ios.modulemap"; sourceTree = "<group>"; };
+		194CC61DD2C65ED49CB30DD73EDD6925 /* PureCloudPlatformClientV2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureCloudPlatformClientV2.modulemap; sourceTree = "<group>"; };
+		1A746E68507061FD82725DB76A90D5E8 /* DataExtensionsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensionsAPI.swift; path = build/src/APIs/DataExtensionsAPI.swift; sourceTree = "<group>"; };
+		1A87EEFEC0B7B7577F0C746DFB11EDEC /* GreetingsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GreetingsAPI.swift; path = build/src/APIs/GreetingsAPI.swift; sourceTree = "<group>"; };
+		1E93F77A553800B8187AD886D9A3988F /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = build/src/Extensions.swift; sourceTree = "<group>"; };
+		1F3E31E87977F1ECD8B4C221F32A8D80 /* LocationsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationsAPI.swift; path = build/src/APIs/LocationsAPI.swift; sourceTree = "<group>"; };
+		23723BA32F3F1D93E3998F1AC19D9EA0 /* RoutingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RoutingAPI.swift; path = build/src/APIs/RoutingAPI.swift; sourceTree = "<group>"; };
+		2473EA22D70D093ECFD627D5C8EC6668 /* Pods-gc-auth-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gc-auth-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		24ADD4087D819EE3D76F13C2F6F8020B /* PlatformAPIModelsP1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformAPIModelsP1.swift; path = build/src/Models/PlatformAPIModelsP1.swift; sourceTree = "<group>"; };
+		26130A8770D8ED9ACDC98F39493EF3BB /* DownloadsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DownloadsAPI.swift; path = build/src/APIs/DownloadsAPI.swift; sourceTree = "<group>"; };
+		2C9763C134E7A0F8348DB245D1634946 /* EventsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventsAPI.swift; path = build/src/APIs/EventsAPI.swift; sourceTree = "<group>"; };
+		2EF54676393A8AAC8960BD3F2AF7C013 /* KnowledgeAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KnowledgeAPI.swift; path = build/src/APIs/KnowledgeAPI.swift; sourceTree = "<group>"; };
+		30000BC8E84E2F4C7F29E170E34956BE /* Pods-gc-auth-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-gc-auth-ios-umbrella.h"; sourceTree = "<group>"; };
+		30314782BF2F5B645CDEB9FBB378EFB0 /* GeneralDataProtectionRegulationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeneralDataProtectionRegulationAPI.swift; path = build/src/APIs/GeneralDataProtectionRegulationAPI.swift; sourceTree = "<group>"; };
+		306CEF058E47A634916CDD174AE7EAC6 /* WidgetsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WidgetsAPI.swift; path = build/src/APIs/WidgetsAPI.swift; sourceTree = "<group>"; };
+		3145B2A8D893FC6D6AFD1A67446DC0E6 /* APIs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIs.swift; path = build/src/APIs.swift; sourceTree = "<group>"; };
+		365BEEF3318C764066D25E65E4623584 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = build/src/Libraries/GenericJSON/JSON.swift; sourceTree = "<group>"; };
+		369C1E9DBDB73CEE0F7EC0494AEC8AED /* NotificationsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsAPI.swift; path = build/src/APIs/NotificationsAPI.swift; sourceTree = "<group>"; };
+		39DE354638C596ABCFED432B47FB9BB6 /* PureCloudPlatformClientV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureCloudPlatformClientV2.release.xcconfig; sourceTree = "<group>"; };
+		3C1032A9CBD9E389F21717DF2BE22B68 /* AnalyticsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnalyticsAPI.swift; path = build/src/APIs/AnalyticsAPI.swift; sourceTree = "<group>"; };
+		3D111B248355DA1D1DE6516D92A2254B /* UsersAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsersAPI.swift; path = build/src/APIs/UsersAPI.swift; sourceTree = "<group>"; };
+		3D63B7BCF33A715A259E80A433C9F14C /* PureCloudPlatformClientV2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureCloudPlatformClientV2-prefix.pch"; sourceTree = "<group>"; };
+		41F4FDC9D42F8AF4EFC877F9C2E9FBB0 /* Pods-gc-auth-ios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-gc-auth-ios"; path = Pods_gc_auth_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A7CCD577BC6D100E6FA520F1AB83E0 /* EmailsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailsAPI.swift; path = build/src/APIs/EmailsAPI.swift; sourceTree = "<group>"; };
+		458DCE07B3FDE6E7AE7CA8403823E045 /* UsageAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsageAPI.swift; path = build/src/APIs/UsageAPI.swift; sourceTree = "<group>"; };
+		465957A99D9B83249BB7AE6F8C3E177E /* CarrierServicesAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CarrierServicesAPI.swift; path = build/src/APIs/CarrierServicesAPI.swift; sourceTree = "<group>"; };
+		47CEFF5969337CEFE4DDEAC0109426DC /* PureCloudPlatformClientV2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureCloudPlatformClientV2-umbrella.h"; sourceTree = "<group>"; };
+		49AE61D501B8D43780E20D319835FEB2 /* LearningAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LearningAPI.swift; path = build/src/APIs/LearningAPI.swift; sourceTree = "<group>"; };
+		4BE3B3A659F0B1EEC2044076EA7F41E6 /* ScriptsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScriptsAPI.swift; path = build/src/APIs/ScriptsAPI.swift; sourceTree = "<group>"; };
+		4E08386F6506AE7975B0C26F82AF397F /* TelephonyProvidersEdgeAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelephonyProvidersEdgeAPI.swift; path = build/src/APIs/TelephonyProvidersEdgeAPI.swift; sourceTree = "<group>"; };
+		50106949A61B9920E18236D3D3C2E581 /* OrganizationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrganizationAPI.swift; path = build/src/APIs/OrganizationAPI.swift; sourceTree = "<group>"; };
+		5342423F7CD5E0A3D03BA3ABAB2DF2F3 /* Pods-gc-auth-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-gc-auth-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		535A6D91696E7A92FC98C34E7652C302 /* ConversationsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConversationsAPI.swift; path = build/src/APIs/ConversationsAPI.swift; sourceTree = "<group>"; };
+		55C8C04A0DC09A9B24F8DC67BB9285BE /* OAuthAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuthAPI.swift; path = build/src/APIs/OAuthAPI.swift; sourceTree = "<group>"; };
+		5662EADE26F29838793331BDB1A118E9 /* ContentManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentManagementAPI.swift; path = build/src/APIs/ContentManagementAPI.swift; sourceTree = "<group>"; };
+		58E72DF56C2D75F6ECD4BF43A898CBDD /* PlatformAPIModelsP5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformAPIModelsP5.swift; path = build/src/Models/PlatformAPIModelsP5.swift; sourceTree = "<group>"; };
+		5B1C790E456E8EF245F138D29A16DA7B /* MessagingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessagingAPI.swift; path = build/src/APIs/MessagingAPI.swift; sourceTree = "<group>"; };
+		5C0476EB83B757005365917287776F90 /* APIHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIHelper.swift; path = build/src/APIHelper.swift; sourceTree = "<group>"; };
+		5C45FF207FBD7D380F684800EA6AB38E /* LanguagesAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguagesAPI.swift; path = build/src/APIs/LanguagesAPI.swift; sourceTree = "<group>"; };
+		5D14D19D193797F80A3E1E6B6EE7AF56 /* PlatformAPIModelsP3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformAPIModelsP3.swift; path = build/src/Models/PlatformAPIModelsP3.swift; sourceTree = "<group>"; };
+		5EB5F1C8239CD7220E337D66A1C7554C /* OperationalEventsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationalEventsAPI.swift; path = build/src/APIs/OperationalEventsAPI.swift; sourceTree = "<group>"; };
+		60BB950F055A57C65A10D062DB58F4B0 /* PureCloudPlatformClientV2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PureCloudPlatformClientV2-Info.plist"; sourceTree = "<group>"; };
+		6184E128B123BC7F49DCD9EDF9796D48 /* Pods-gc-auth-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-gc-auth-ios-Info.plist"; sourceTree = "<group>"; };
+		631EA09B87D437E8DEEC5FD74632DC86 /* ResponseManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseManagementAPI.swift; path = build/src/APIs/ResponseManagementAPI.swift; sourceTree = "<group>"; };
+		69484BA8D6ADFB3D0ED3D0917747769F /* VoicemailAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoicemailAPI.swift; path = build/src/APIs/VoicemailAPI.swift; sourceTree = "<group>"; };
+		69CBE9E51DE48F43A59397CA3D2CC393 /* SettingsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsAPI.swift; path = build/src/APIs/SettingsAPI.swift; sourceTree = "<group>"; };
+		6AC8BB33B451426628424AD50BF27D64 /* TokensAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokensAPI.swift; path = build/src/APIs/TokensAPI.swift; sourceTree = "<group>"; };
+		6D0EB5B5DC26607CADF20C0CC78E64A6 /* CoachingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoachingAPI.swift; path = build/src/APIs/CoachingAPI.swift; sourceTree = "<group>"; };
+		704ADB54E5AC3F8524FC97896566BA69 /* PlatformAPIModelsP4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformAPIModelsP4.swift; path = build/src/Models/PlatformAPIModelsP4.swift; sourceTree = "<group>"; };
+		7161C7BA4F3FE947EB834387B773732E /* SpeechTextAnalyticsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpeechTextAnalyticsAPI.swift; path = build/src/APIs/SpeechTextAnalyticsAPI.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A4DF048AE98010288D522DFD82D6C12 /* IdentityProviderAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdentityProviderAPI.swift; path = build/src/APIs/IdentityProviderAPI.swift; sourceTree = "<group>"; };
+		7BD4CE0EA3283DC37D5950498FCCECF1 /* SdkConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SdkConfiguration.swift; path = build/src/SdkConfiguration.swift; sourceTree = "<group>"; };
+		829C6116FEAA4BC5714967E9C8551192 /* AuditAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuditAPI.swift; path = build/src/APIs/AuditAPI.swift; sourceTree = "<group>"; };
+		82B7F1C4C44B2A32150FC47BB39D459B /* UtilitiesAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UtilitiesAPI.swift; path = build/src/APIs/UtilitiesAPI.swift; sourceTree = "<group>"; };
+		84FBE8DBA0C185D98DE194E407FEFA51 /* FaxAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaxAPI.swift; path = build/src/APIs/FaxAPI.swift; sourceTree = "<group>"; };
+		859147E95D511381097B5B8C5FECA96F /* GamificationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GamificationAPI.swift; path = build/src/APIs/GamificationAPI.swift; sourceTree = "<group>"; };
+		86FAC1A116C8A87D80AB0FE7B5234216 /* ProcessAutomationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProcessAutomationAPI.swift; path = build/src/APIs/ProcessAutomationAPI.swift; sourceTree = "<group>"; };
+		882CD1828CD7C85CF2B60A363C01DC52 /* PureCloudPlatformClientV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureCloudPlatformClientV2.debug.xcconfig; sourceTree = "<group>"; };
+		8BB48E3F8A964FF675F3B3B3561F29DB /* JSONEncodingHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingHelper.swift; path = build/src/JSONEncodingHelper.swift; sourceTree = "<group>"; };
+		8CEA8DCB362A50A3CD1291E8322300E7 /* Initialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initialization.swift; path = build/src/Libraries/GenericJSON/Initialization.swift; sourceTree = "<group>"; };
+		964E095A61DA58E9D4FF198004CCA47E /* JourneyAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JourneyAPI.swift; path = build/src/APIs/JourneyAPI.swift; sourceTree = "<group>"; };
+		96EA241A70F8FB9B0D3A47B3D385C6CF /* IntegrationsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegrationsAPI.swift; path = build/src/APIs/IntegrationsAPI.swift; sourceTree = "<group>"; };
+		971DD918F3DD4DAEE3B42C2EB5D2D320 /* Pods-gc-auth-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-gc-auth-ios-frameworks.sh"; sourceTree = "<group>"; };
+		9AD1EBA93CF04E95E627BFCAB12457DC /* WorkforceManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WorkforceManagementAPI.swift; path = build/src/APIs/WorkforceManagementAPI.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E144A9A7B6093CD11531148CFDBF824 /* TextbotsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextbotsAPI.swift; path = build/src/APIs/TextbotsAPI.swift; sourceTree = "<group>"; };
+		A57EA030147DECA766C84C2D5E023AE5 /* UploadsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadsAPI.swift; path = build/src/APIs/UploadsAPI.swift; sourceTree = "<group>"; };
+		A7353564B5EF0416F920BB924619B68A /* PlatformAPIModelsP2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformAPIModelsP2.swift; path = build/src/Models/PlatformAPIModelsP2.swift; sourceTree = "<group>"; };
+		AC2C16ADC493BFD9820DD2D37AFB4D3A /* BillingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BillingAPI.swift; path = build/src/APIs/BillingAPI.swift; sourceTree = "<group>"; };
+		AD67C3B8096633E279A4B341C0520D9A /* RecordingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecordingAPI.swift; path = build/src/APIs/RecordingAPI.swift; sourceTree = "<group>"; };
+		AD79B21BB8AC2CD0B5A727AFAB9B26B5 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Models.swift; path = build/src/Models.swift; sourceTree = "<group>"; };
+		B2C306596B4ADBC6FCC6F97719798B58 /* Pods-gc-auth-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-gc-auth-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B553503E99BAB8116CC71E3D4AB6AAEC /* OutboundAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OutboundAPI.swift; path = build/src/APIs/OutboundAPI.swift; sourceTree = "<group>"; };
+		B6B8411A455C3DB4C37C25C24A1782D8 /* WebMessagingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebMessagingAPI.swift; path = build/src/APIs/WebMessagingAPI.swift; sourceTree = "<group>"; };
+		B80580DE1ED06FAA5F1BD707F0DC3693 /* GroupsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupsAPI.swift; path = build/src/APIs/GroupsAPI.swift; sourceTree = "<group>"; };
+		B96C7EBB2113D69FA99B63FC135E00FF /* ChatAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatAPI.swift; path = build/src/APIs/ChatAPI.swift; sourceTree = "<group>"; };
+		BCF42FE2A6B64A8B3244223C0AF97994 /* AlertingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertingAPI.swift; path = build/src/APIs/AlertingAPI.swift; sourceTree = "<group>"; };
+		BD8ED893EFB5B76519C7718897D30077 /* SCIMAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCIMAPI.swift; path = build/src/APIs/SCIMAPI.swift; sourceTree = "<group>"; };
+		BDBE4C56C419128A864290201E39543E /* Querying.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Querying.swift; path = build/src/Libraries/GenericJSON/Querying.swift; sourceTree = "<group>"; };
+		BF13D17728C928C85A53806EC2716E82 /* Pods-gc-auth-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-gc-auth-ios-dummy.m"; sourceTree = "<group>"; };
+		BF53C9CDCF13AFA123183EA4E16B5B5B /* AuthorizationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizationAPI.swift; path = build/src/APIs/AuthorizationAPI.swift; sourceTree = "<group>"; };
+		C0780788DC99D904C0876CF24FD1FEC4 /* GeolocationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeolocationAPI.swift; path = build/src/APIs/GeolocationAPI.swift; sourceTree = "<group>"; };
+		C1DC2A7C51ADDC4AF1124473EE8668E7 /* InfrastructureAsCodeAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfrastructureAsCodeAPI.swift; path = build/src/APIs/InfrastructureAsCodeAPI.swift; sourceTree = "<group>"; };
+		C3D4E1DA3CF1B7BC30702E44EDCF94EE /* SearchAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchAPI.swift; path = build/src/APIs/SearchAPI.swift; sourceTree = "<group>"; };
+		C57535C71ECD9CCCE308A569F015F2B6 /* FlowsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlowsAPI.swift; path = build/src/APIs/FlowsAPI.swift; sourceTree = "<group>"; };
+		C7D6985BE24C45ACE0780E781DD077ED /* LicenseAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LicenseAPI.swift; path = build/src/APIs/LicenseAPI.swift; sourceTree = "<group>"; };
+		D1DA0F1AAD01F7D20B29D3FEDE521629 /* TelephonyAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelephonyAPI.swift; path = build/src/APIs/TelephonyAPI.swift; sourceTree = "<group>"; };
+		D4F483119760C4309266CC48F9377385 /* UserRecordingsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserRecordingsAPI.swift; path = build/src/APIs/UserRecordingsAPI.swift; sourceTree = "<group>"; };
+		D694F3718E90DBA65CF69867C3F8F4CF /* ExternalContactsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExternalContactsAPI.swift; path = build/src/APIs/ExternalContactsAPI.swift; sourceTree = "<group>"; };
+		D7A86AC77FB8FF95659692E19730E8BF /* CodableHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableHelper.swift; path = build/src/CodableHelper.swift; sourceTree = "<group>"; };
+		DA43C631C96DB88CFD088D12F380846D /* QualityAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QualityAPI.swift; path = build/src/APIs/QualityAPI.swift; sourceTree = "<group>"; };
+		DAEB312D37428B912EF896CC8F9A7850 /* WebChatAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebChatAPI.swift; path = build/src/APIs/WebChatAPI.swift; sourceTree = "<group>"; };
+		DE084D57CA31142E493481DAB76B5F9C /* WebDeploymentsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebDeploymentsAPI.swift; path = build/src/APIs/WebDeploymentsAPI.swift; sourceTree = "<group>"; };
+		E12859FCAD29DAD8E3BC6C34B6383789 /* UrlSessionImplementations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UrlSessionImplementations.swift; path = build/src/UrlSessionImplementations.swift; sourceTree = "<group>"; };
+		E2EF27B2DD10FAFF3DD694E0599186EF /* TeamsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TeamsAPI.swift; path = build/src/APIs/TeamsAPI.swift; sourceTree = "<group>"; };
+		E75C1D4E2F3F5FC1B01759315847B4C8 /* MobileDevicesAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileDevicesAPI.swift; path = build/src/APIs/MobileDevicesAPI.swift; sourceTree = "<group>"; };
+		E7D95C1421922D35427C72F029B7E7CC /* ScreenRecordingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenRecordingAPI.swift; path = build/src/APIs/ScreenRecordingAPI.swift; sourceTree = "<group>"; };
+		F2DBCEDE28ABD4CD15BBD9378C82D33A /* StationsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StationsAPI.swift; path = build/src/APIs/StationsAPI.swift; sourceTree = "<group>"; };
+		F4444038D1EA3A2570DFA29FA1CCEEC2 /* PresenceAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresenceAPI.swift; path = build/src/APIs/PresenceAPI.swift; sourceTree = "<group>"; };
+		FDC38DE87EA4094C59747DCEF73FC9E6 /* ArchitectAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArchitectAPI.swift; path = build/src/APIs/ArchitectAPI.swift; sourceTree = "<group>"; };
+		FFE9439029E6AFC441BB9F79FB18CF10 /* OrganizationAuthorizationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrganizationAuthorizationAPI.swift; path = build/src/APIs/OrganizationAuthorizationAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		254D6E9D5B7CFA0D58A4A91DB5FFE88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB1A88EB936C5C351B667DA84A46491A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA7B02EC108A6AF64FB40518827BE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDF76A16C8691BDDDA0CE0242D0882C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13819F01CB77802DB98DDA3252F37045 /* Pods-gc-auth-ios */ = {
+			isa = PBXGroup;
+			children = (
+				179D72DCBCD8806B76836E67BBBB23F4 /* Pods-gc-auth-ios.modulemap */,
+				5342423F7CD5E0A3D03BA3ABAB2DF2F3 /* Pods-gc-auth-ios-acknowledgements.markdown */,
+				2473EA22D70D093ECFD627D5C8EC6668 /* Pods-gc-auth-ios-acknowledgements.plist */,
+				BF13D17728C928C85A53806EC2716E82 /* Pods-gc-auth-ios-dummy.m */,
+				971DD918F3DD4DAEE3B42C2EB5D2D320 /* Pods-gc-auth-ios-frameworks.sh */,
+				6184E128B123BC7F49DCD9EDF9796D48 /* Pods-gc-auth-ios-Info.plist */,
+				30000BC8E84E2F4C7F29E170E34956BE /* Pods-gc-auth-ios-umbrella.h */,
+				04C9A43B9D55DC89CC62FB9FA33CDFEB /* Pods-gc-auth-ios.debug.xcconfig */,
+				B2C306596B4ADBC6FCC6F97719798B58 /* Pods-gc-auth-ios.release.xcconfig */,
+			);
+			name = "Pods-gc-auth-ios";
+			path = "Target Support Files/Pods-gc-auth-ios";
+			sourceTree = "<group>";
+		};
+		3A2AE26D9B9A13C1C75C1666C3065127 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				194CC61DD2C65ED49CB30DD73EDD6925 /* PureCloudPlatformClientV2.modulemap */,
+				05773C2616BBA5C6AD673CC04884D343 /* PureCloudPlatformClientV2-dummy.m */,
+				60BB950F055A57C65A10D062DB58F4B0 /* PureCloudPlatformClientV2-Info.plist */,
+				3D63B7BCF33A715A259E80A433C9F14C /* PureCloudPlatformClientV2-prefix.pch */,
+				47CEFF5969337CEFE4DDEAC0109426DC /* PureCloudPlatformClientV2-umbrella.h */,
+				882CD1828CD7C85CF2B60A363C01DC52 /* PureCloudPlatformClientV2.debug.xcconfig */,
+				39DE354638C596ABCFED432B47FB9BB6 /* PureCloudPlatformClientV2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureCloudPlatformClientV2";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		703FAB3FE659DA534C2587B03E31BC83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41F4FDC9D42F8AF4EFC877F9C2E9FBB0 /* Pods-gc-auth-ios */,
+				0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		916F680EF575D2146B87EA3CEDC565B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13819F01CB77802DB98DDA3252F37045 /* Pods-gc-auth-ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95D639CC13158EA665FB18857D4D036C /* PureCloudPlatformClientV2 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF42FE2A6B64A8B3244223C0AF97994 /* AlertingAPI.swift */,
+				3C1032A9CBD9E389F21717DF2BE22B68 /* AnalyticsAPI.swift */,
+				5C0476EB83B757005365917287776F90 /* APIHelper.swift */,
+				3145B2A8D893FC6D6AFD1A67446DC0E6 /* APIs.swift */,
+				FDC38DE87EA4094C59747DCEF73FC9E6 /* ArchitectAPI.swift */,
+				829C6116FEAA4BC5714967E9C8551192 /* AuditAPI.swift */,
+				BF53C9CDCF13AFA123183EA4E16B5B5B /* AuthorizationAPI.swift */,
+				AC2C16ADC493BFD9820DD2D37AFB4D3A /* BillingAPI.swift */,
+				465957A99D9B83249BB7AE6F8C3E177E /* CarrierServicesAPI.swift */,
+				B96C7EBB2113D69FA99B63FC135E00FF /* ChatAPI.swift */,
+				6D0EB5B5DC26607CADF20C0CC78E64A6 /* CoachingAPI.swift */,
+				D7A86AC77FB8FF95659692E19730E8BF /* CodableHelper.swift */,
+				5662EADE26F29838793331BDB1A118E9 /* ContentManagementAPI.swift */,
+				535A6D91696E7A92FC98C34E7652C302 /* ConversationsAPI.swift */,
+				1A746E68507061FD82725DB76A90D5E8 /* DataExtensionsAPI.swift */,
+				26130A8770D8ED9ACDC98F39493EF3BB /* DownloadsAPI.swift */,
+				44A7CCD577BC6D100E6FA520F1AB83E0 /* EmailsAPI.swift */,
+				2C9763C134E7A0F8348DB245D1634946 /* EventsAPI.swift */,
+				1E93F77A553800B8187AD886D9A3988F /* Extensions.swift */,
+				D694F3718E90DBA65CF69867C3F8F4CF /* ExternalContactsAPI.swift */,
+				84FBE8DBA0C185D98DE194E407FEFA51 /* FaxAPI.swift */,
+				C57535C71ECD9CCCE308A569F015F2B6 /* FlowsAPI.swift */,
+				859147E95D511381097B5B8C5FECA96F /* GamificationAPI.swift */,
+				30314782BF2F5B645CDEB9FBB378EFB0 /* GeneralDataProtectionRegulationAPI.swift */,
+				C0780788DC99D904C0876CF24FD1FEC4 /* GeolocationAPI.swift */,
+				1A87EEFEC0B7B7577F0C746DFB11EDEC /* GreetingsAPI.swift */,
+				B80580DE1ED06FAA5F1BD707F0DC3693 /* GroupsAPI.swift */,
+				7A4DF048AE98010288D522DFD82D6C12 /* IdentityProviderAPI.swift */,
+				C1DC2A7C51ADDC4AF1124473EE8668E7 /* InfrastructureAsCodeAPI.swift */,
+				8CEA8DCB362A50A3CD1291E8322300E7 /* Initialization.swift */,
+				96EA241A70F8FB9B0D3A47B3D385C6CF /* IntegrationsAPI.swift */,
+				964E095A61DA58E9D4FF198004CCA47E /* JourneyAPI.swift */,
+				365BEEF3318C764066D25E65E4623584 /* JSON.swift */,
+				8BB48E3F8A964FF675F3B3B3561F29DB /* JSONEncodingHelper.swift */,
+				2EF54676393A8AAC8960BD3F2AF7C013 /* KnowledgeAPI.swift */,
+				5C45FF207FBD7D380F684800EA6AB38E /* LanguagesAPI.swift */,
+				0C18A8693B531FA3CBEBBE04F5C2D80B /* LanguageUnderstandingAPI.swift */,
+				49AE61D501B8D43780E20D319835FEB2 /* LearningAPI.swift */,
+				C7D6985BE24C45ACE0780E781DD077ED /* LicenseAPI.swift */,
+				1F3E31E87977F1ECD8B4C221F32A8D80 /* LocationsAPI.swift */,
+				0D38BACB8DE004D1CFF6FE9DF60A2EE4 /* LogCaptureAPI.swift */,
+				5B1C790E456E8EF245F138D29A16DA7B /* MessagingAPI.swift */,
+				E75C1D4E2F3F5FC1B01759315847B4C8 /* MobileDevicesAPI.swift */,
+				AD79B21BB8AC2CD0B5A727AFAB9B26B5 /* Models.swift */,
+				369C1E9DBDB73CEE0F7EC0494AEC8AED /* NotificationsAPI.swift */,
+				55C8C04A0DC09A9B24F8DC67BB9285BE /* OAuthAPI.swift */,
+				130691267A0156A473C3EB9764BA6913 /* ObjectsAPI.swift */,
+				5EB5F1C8239CD7220E337D66A1C7554C /* OperationalEventsAPI.swift */,
+				50106949A61B9920E18236D3D3C2E581 /* OrganizationAPI.swift */,
+				FFE9439029E6AFC441BB9F79FB18CF10 /* OrganizationAuthorizationAPI.swift */,
+				B553503E99BAB8116CC71E3D4AB6AAEC /* OutboundAPI.swift */,
+				24ADD4087D819EE3D76F13C2F6F8020B /* PlatformAPIModelsP1.swift */,
+				A7353564B5EF0416F920BB924619B68A /* PlatformAPIModelsP2.swift */,
+				5D14D19D193797F80A3E1E6B6EE7AF56 /* PlatformAPIModelsP3.swift */,
+				704ADB54E5AC3F8524FC97896566BA69 /* PlatformAPIModelsP4.swift */,
+				58E72DF56C2D75F6ECD4BF43A898CBDD /* PlatformAPIModelsP5.swift */,
+				F4444038D1EA3A2570DFA29FA1CCEEC2 /* PresenceAPI.swift */,
+				86FAC1A116C8A87D80AB0FE7B5234216 /* ProcessAutomationAPI.swift */,
+				DA43C631C96DB88CFD088D12F380846D /* QualityAPI.swift */,
+				BDBE4C56C419128A864290201E39543E /* Querying.swift */,
+				AD67C3B8096633E279A4B341C0520D9A /* RecordingAPI.swift */,
+				631EA09B87D437E8DEEC5FD74632DC86 /* ResponseManagementAPI.swift */,
+				23723BA32F3F1D93E3998F1AC19D9EA0 /* RoutingAPI.swift */,
+				BD8ED893EFB5B76519C7718897D30077 /* SCIMAPI.swift */,
+				E7D95C1421922D35427C72F029B7E7CC /* ScreenRecordingAPI.swift */,
+				4BE3B3A659F0B1EEC2044076EA7F41E6 /* ScriptsAPI.swift */,
+				7BD4CE0EA3283DC37D5950498FCCECF1 /* SdkConfiguration.swift */,
+				C3D4E1DA3CF1B7BC30702E44EDCF94EE /* SearchAPI.swift */,
+				69CBE9E51DE48F43A59397CA3D2CC393 /* SettingsAPI.swift */,
+				7161C7BA4F3FE947EB834387B773732E /* SpeechTextAnalyticsAPI.swift */,
+				F2DBCEDE28ABD4CD15BBD9378C82D33A /* StationsAPI.swift */,
+				023BCEE2C065C24383278343C4EFAADD /* SuggestAPI.swift */,
+				E2EF27B2DD10FAFF3DD694E0599186EF /* TeamsAPI.swift */,
+				D1DA0F1AAD01F7D20B29D3FEDE521629 /* TelephonyAPI.swift */,
+				4E08386F6506AE7975B0C26F82AF397F /* TelephonyProvidersEdgeAPI.swift */,
+				9E144A9A7B6093CD11531148CFDBF824 /* TextbotsAPI.swift */,
+				6AC8BB33B451426628424AD50BF27D64 /* TokensAPI.swift */,
+				A57EA030147DECA766C84C2D5E023AE5 /* UploadsAPI.swift */,
+				E12859FCAD29DAD8E3BC6C34B6383789 /* UrlSessionImplementations.swift */,
+				458DCE07B3FDE6E7AE7CA8403823E045 /* UsageAPI.swift */,
+				D4F483119760C4309266CC48F9377385 /* UserRecordingsAPI.swift */,
+				3D111B248355DA1D1DE6516D92A2254B /* UsersAPI.swift */,
+				82B7F1C4C44B2A32150FC47BB39D459B /* UtilitiesAPI.swift */,
+				69484BA8D6ADFB3D0ED3D0917747769F /* VoicemailAPI.swift */,
+				DAEB312D37428B912EF896CC8F9A7850 /* WebChatAPI.swift */,
+				DE084D57CA31142E493481DAB76B5F9C /* WebDeploymentsAPI.swift */,
+				B6B8411A455C3DB4C37C25C24A1782D8 /* WebMessagingAPI.swift */,
+				306CEF058E47A634916CDD174AE7EAC6 /* WidgetsAPI.swift */,
+				9AD1EBA93CF04E95E627BFCAB12457DC /* WorkforceManagementAPI.swift */,
+				3A2AE26D9B9A13C1C75C1666C3065127 /* Support Files */,
+			);
+			name = PureCloudPlatformClientV2;
+			path = PureCloudPlatformClientV2;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E065036257E46A90F0DD8D47B1366C5E /* Pods */,
+				703FAB3FE659DA534C2587B03E31BC83 /* Products */,
+				916F680EF575D2146B87EA3CEDC565B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E065036257E46A90F0DD8D47B1366C5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D639CC13158EA665FB18857D4D036C /* PureCloudPlatformClientV2 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52752DB35BA4EC91CE1F1A27D9ADBB17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D80C4B0E58F3EFBAFA6977A938601DB1 /* Pods-gc-auth-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BC6475710DAF466BC8DA09FBA11F35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B907D68C12C5BB6B0538537840098D10 /* PureCloudPlatformClientV2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06F1F83D21263ABFF10318F891AAE6E8 /* Pods-gc-auth-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B656EC9A62259B947641D3CC231DB37B /* Build configuration list for PBXNativeTarget "Pods-gc-auth-ios" */;
+			buildPhases = (
+				52752DB35BA4EC91CE1F1A27D9ADBB17 /* Headers */,
+				0A207F9A63F2E2EB1B23EFEAB229736F /* Sources */,
+				254D6E9D5B7CFA0D58A4A91DB5FFE88F /* Frameworks */,
+				75C0D99249467CBD068C8E526C28EAB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5307733DA2B6932BE4ADB3186FA7BB /* PBXTargetDependency */,
+			);
+			name = "Pods-gc-auth-ios";
+			productName = Pods_gc_auth_ios;
+			productReference = 41F4FDC9D42F8AF4EFC877F9C2E9FBB0 /* Pods-gc-auth-ios */;
+			productType = "com.apple.product-type.framework";
+		};
+		9735C173F115309C7F799E0518ECDED4 /* PureCloudPlatformClientV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6909E2ADDC4CF2A4F32A2CD056E7C65 /* Build configuration list for PBXNativeTarget "PureCloudPlatformClientV2" */;
+			buildPhases = (
+				68BC6475710DAF466BC8DA09FBA11F35 /* Headers */,
+				1469EB280AC59DC9359492958375C5D2 /* Sources */,
+				BCA7B02EC108A6AF64FB40518827BE2A /* Frameworks */,
+				9DE63FF2CC5779C7336CDD667D301510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureCloudPlatformClientV2;
+			productName = PureCloudPlatformClientV2;
+			productReference = 0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2 */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 703FAB3FE659DA534C2587B03E31BC83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F1F83D21263ABFF10318F891AAE6E8 /* Pods-gc-auth-ios */,
+				9735C173F115309C7F799E0518ECDED4 /* PureCloudPlatformClientV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75C0D99249467CBD068C8E526C28EAB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE63FF2CC5779C7336CDD667D301510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A207F9A63F2E2EB1B23EFEAB229736F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746F8726AFEF918D6C0D0B32A5846902 /* Pods-gc-auth-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1469EB280AC59DC9359492958375C5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A604FD51BAD43E2CD28B6D7F3863076 /* AlertingAPI.swift in Sources */,
+				F30CCFD962E551725A21EC436BA02B6A /* AnalyticsAPI.swift in Sources */,
+				8AE8FF62FCDE3E69F98BB51FAD75AA10 /* APIHelper.swift in Sources */,
+				65C70CF08F5CA6719E4C7328653EBBAC /* APIs.swift in Sources */,
+				072CEFE5FCBDE39089F40A93E66004B4 /* ArchitectAPI.swift in Sources */,
+				97CDB898FCFC62F8BF3B5C06CD3D26C4 /* AuditAPI.swift in Sources */,
+				FFCC4C70E65E8DD78B6A373E28C72217 /* AuthorizationAPI.swift in Sources */,
+				FEAFB2EBEBA0725D1F27361206851246 /* BillingAPI.swift in Sources */,
+				F7CFA78C6E0CDE2B0018222827CEE602 /* CarrierServicesAPI.swift in Sources */,
+				C332E22C37B16EF81C59A31D2D874616 /* ChatAPI.swift in Sources */,
+				61387BAD978B75AEB2B6831ED500B45C /* CoachingAPI.swift in Sources */,
+				7796C72958F3E04F2F13626F2FFAF876 /* CodableHelper.swift in Sources */,
+				CC5C422B349219311188BDBF73D94AFF /* ContentManagementAPI.swift in Sources */,
+				C40829F91E5D0182763F327026874E44 /* ConversationsAPI.swift in Sources */,
+				BC3D2DA39A693BCD24FCBDAE4B9FD55B /* DataExtensionsAPI.swift in Sources */,
+				BC91FADA312EC96A3629C402A2744DD5 /* DownloadsAPI.swift in Sources */,
+				02F768A82845CEE6FE9DA5D06F7A2D83 /* EmailsAPI.swift in Sources */,
+				61A047D8933896081106EF49964E14AE /* EventsAPI.swift in Sources */,
+				B23B5FEE23F30185FDCC7EEEB476B560 /* Extensions.swift in Sources */,
+				208E423E1E4717319DEB93A40F66EC64 /* ExternalContactsAPI.swift in Sources */,
+				2EB6555EA385170D86AF53452F64BA3A /* FaxAPI.swift in Sources */,
+				0307732BC6B232311F95F50A241A2688 /* FlowsAPI.swift in Sources */,
+				654AEFF872C908CDEC3109B77CDD81B0 /* GamificationAPI.swift in Sources */,
+				5DEC29C1820B29504FD32E67130153B3 /* GeneralDataProtectionRegulationAPI.swift in Sources */,
+				A47A25C644855A5A0676D651D01F9218 /* GeolocationAPI.swift in Sources */,
+				25537D0C0D32FF06E877EE66547BC7A6 /* GreetingsAPI.swift in Sources */,
+				962951405221F471BDF77ED68D6E5DDE /* GroupsAPI.swift in Sources */,
+				6ACCB2F8B67224487067491B9AF85E69 /* IdentityProviderAPI.swift in Sources */,
+				12694DCAA76A9F2DF41FBEF8F4B8B628 /* InfrastructureAsCodeAPI.swift in Sources */,
+				F0C1EA2A4F94A7BB72F372807D5180D0 /* Initialization.swift in Sources */,
+				9226651DFA7D06741FCD7365610864CA /* IntegrationsAPI.swift in Sources */,
+				58C78140D92E6BD65420237194B82DC0 /* JourneyAPI.swift in Sources */,
+				ECE20AE191165253563A12FE021A8C66 /* JSON.swift in Sources */,
+				1030C20F494E9F4738A09FE6DE087326 /* JSONEncodingHelper.swift in Sources */,
+				33A9BDE48F06786DB26009916DEFDBD2 /* KnowledgeAPI.swift in Sources */,
+				E8A58C305713CF6DAB82469FEB3E7C9A /* LanguagesAPI.swift in Sources */,
+				EC7C195CC9AA6A830895A5C5552FD977 /* LanguageUnderstandingAPI.swift in Sources */,
+				58C8AF594CF29FD900C3E71E566567F3 /* LearningAPI.swift in Sources */,
+				1BBB873C51341F48B55E5039533E3E9A /* LicenseAPI.swift in Sources */,
+				21DC05D029EB9EEBCE72393E1DA722D8 /* LocationsAPI.swift in Sources */,
+				9A549BFBBFA7AF27F572A9A96A01DCC6 /* LogCaptureAPI.swift in Sources */,
+				94BA4178FE0343D29B5D75E564AC5716 /* MessagingAPI.swift in Sources */,
+				BC0D96BB6006027AC56E0AC9E567E6E9 /* MobileDevicesAPI.swift in Sources */,
+				5106DFF3457F923D8F73412D016B25C9 /* Models.swift in Sources */,
+				29DE71EF78E0C11A513AAAB192C70082 /* NotificationsAPI.swift in Sources */,
+				E54B8CF1C739AE1BD9BDDC9FD981524F /* OAuthAPI.swift in Sources */,
+				A199C35795091588E39039E4FAF71BCD /* ObjectsAPI.swift in Sources */,
+				87BF573C181F9F0FE9C5ACFDAAED825F /* OperationalEventsAPI.swift in Sources */,
+				653D16A52EA0AC8E15686677DC988F36 /* OrganizationAPI.swift in Sources */,
+				25E4315B3D29A135DA6D31D0614EAE38 /* OrganizationAuthorizationAPI.swift in Sources */,
+				560EA3C2FC0F4077A1BD5B27BC8F8E68 /* OutboundAPI.swift in Sources */,
+				3BCA8B8A7469C30E5C4A2429F0277FB7 /* PlatformAPIModelsP1.swift in Sources */,
+				863C6B92720C1FCCB2018AB7E4255B69 /* PlatformAPIModelsP2.swift in Sources */,
+				AD721E07D528DB49571FF135746E62EA /* PlatformAPIModelsP3.swift in Sources */,
+				C01C9463C1152F8B427FC397D0138A96 /* PlatformAPIModelsP4.swift in Sources */,
+				2320D7F4D7AF36027A445CFA053DDCFB /* PlatformAPIModelsP5.swift in Sources */,
+				496EAB5417F09ED1719E22DC81A58187 /* PresenceAPI.swift in Sources */,
+				BBF977813485C2EDADC11602FAC5C538 /* ProcessAutomationAPI.swift in Sources */,
+				033F6D834F8EAB94C230E2A990BA9B5B /* PureCloudPlatformClientV2-dummy.m in Sources */,
+				05BE491C1B2327EFB8287245BF5F45D0 /* QualityAPI.swift in Sources */,
+				51FE9328DBF24A7522091F9EDCB0D242 /* Querying.swift in Sources */,
+				60CA664F3C7309CB5385E13C8BE1D555 /* RecordingAPI.swift in Sources */,
+				0FB2F0C60DCD4BC3F4B3FCD1B4DB16ED /* ResponseManagementAPI.swift in Sources */,
+				538715A79A03057B150F9FC53F4DB866 /* RoutingAPI.swift in Sources */,
+				C60D0479EBC32AB5DA5D20EFC214497E /* SCIMAPI.swift in Sources */,
+				CB85B04DE88CEF8A3A44666D5BBB157A /* ScreenRecordingAPI.swift in Sources */,
+				EABF994D643806659F8C4F267E351BDB /* ScriptsAPI.swift in Sources */,
+				E50BF5A8965C8DB7221869492F313209 /* SdkConfiguration.swift in Sources */,
+				0256C871817192FDE2081926EA25EC57 /* SearchAPI.swift in Sources */,
+				F207F6431CD80B94A05843A150473218 /* SettingsAPI.swift in Sources */,
+				2E942F0867D048162F5B5FB52E1C4227 /* SpeechTextAnalyticsAPI.swift in Sources */,
+				0F1CD98688EEBB75B84730D108D50677 /* StationsAPI.swift in Sources */,
+				1C588D752A8AEF63A48029EDFB28BFB8 /* SuggestAPI.swift in Sources */,
+				4816066328AE0BC3A81EA847D5082310 /* TeamsAPI.swift in Sources */,
+				32DD6BA839A32DF3E9234FAB274728CB /* TelephonyAPI.swift in Sources */,
+				44BD19D309F2186D65CE3A9B17125889 /* TelephonyProvidersEdgeAPI.swift in Sources */,
+				09874D4504B254DAED98A8439CD74D97 /* TextbotsAPI.swift in Sources */,
+				5A400D720053DB7B505DDAC74C2E4D27 /* TokensAPI.swift in Sources */,
+				DE5623BFC650E85C990B6AEC24C80F4B /* UploadsAPI.swift in Sources */,
+				5DDA82FC496025895AEC55633A77A7EF /* UrlSessionImplementations.swift in Sources */,
+				4FAC67E2A432B2688771AA85477FDB59 /* UsageAPI.swift in Sources */,
+				B01DD3B5D2878FC2F93DB25E52E997ED /* UserRecordingsAPI.swift in Sources */,
+				2E604FE2AFBC40DAFFA4EC2CAFF6D9FC /* UsersAPI.swift in Sources */,
+				6D1FD3D91DF1C461FDD86554D4531D3C /* UtilitiesAPI.swift in Sources */,
+				4BA031F353E91DA1722BF210147EFE80 /* VoicemailAPI.swift in Sources */,
+				E15B5CB2E266FA07B147196B5A415C54 /* WebChatAPI.swift in Sources */,
+				11AEF47F91B26B7F8758BC00B3233576 /* WebDeploymentsAPI.swift in Sources */,
+				017E2F518BB66FF136309DCA6F72E62D /* WebMessagingAPI.swift in Sources */,
+				99A431581838CD7C333DAAA31E6DE4B6 /* WidgetsAPI.swift in Sources */,
+				EB898ABBA74C0E480674F6BB67B20F07 /* WorkforceManagementAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA5307733DA2B6932BE4ADB3186FA7BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureCloudPlatformClientV2;
+			target = 9735C173F115309C7F799E0518ECDED4 /* PureCloudPlatformClientV2 */;
+			targetProxy = 37669B987FE3885F342DBA9567FA3278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35486F069E7D4B0DCE84FF1F97283A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C306596B4ADBC6FCC6F97719798B58 /* Pods-gc-auth-ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-gc-auth-ios/Pods-gc-auth-ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gc-auth-ios/Pods-gc-auth-ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53E8C57BACBD86A76B4D10DAFBFE8437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C9A43B9D55DC89CC62FB9FA33CDFEB /* Pods-gc-auth-ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-gc-auth-ios/Pods-gc-auth-ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-gc-auth-ios/Pods-gc-auth-ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9C823D80ED7517D5914D188BD6D5F665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DE354638C596ABCFED432B47FB9BB6 /* PureCloudPlatformClientV2.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2.modulemap";
+				PRODUCT_MODULE_NAME = PureCloudPlatformClientV2;
+				PRODUCT_NAME = PureCloudPlatformClientV2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8CB115E2280E3D0D47564A6AED68F43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882CD1828CD7C85CF2B60A363C01DC52 /* PureCloudPlatformClientV2.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2.modulemap";
+				PRODUCT_MODULE_NAME = PureCloudPlatformClientV2;
+				PRODUCT_NAME = PureCloudPlatformClientV2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B656EC9A62259B947641D3CC231DB37B /* Build configuration list for PBXNativeTarget "Pods-gc-auth-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E8C57BACBD86A76B4D10DAFBFE8437 /* Debug */,
+				35486F069E7D4B0DCE84FF1F97283A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6909E2ADDC4CF2A4F32A2CD056E7C65 /* Build configuration list for PBXNativeTarget "PureCloudPlatformClientV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CB115E2280E3D0D47564A6AED68F43 /* Debug */,
+				9C823D80ED7517D5914D188BD6D5F665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
