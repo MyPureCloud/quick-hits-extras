@@ -1,0 +1,19 @@
+// >> START ios-pkce-auth-config
+//
+//  Development.xcconfig
+//  gc-auth-ios
+//
+//  Created by Jerome on 15/11/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Pods/Target Support Files/Pods-gc-auth-ios/Pods-gc-auth-ios.debug.xcconfig"
+
+GC_ENVIRONMENT= mypurecloud.com
+GC_CLIENT_ID=YOUR_OAUTH_CLIENT_ID
+GC_REDIRECT_URL=https:/$()/fakeredirecturi/oauth2/callback
+GC_USE_PKCE=true
+
+// >> END ios-pkce-auth-config

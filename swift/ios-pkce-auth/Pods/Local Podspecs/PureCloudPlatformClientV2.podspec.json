@@ -1,0 +1,22 @@
+{
+  "name": "PureCloudPlatformClientV2",
+  "summary": "An iOS library to interface with the PureCloud Platform API",
+  "platforms": {
+    "ios": "12.0",
+    "osx": "12.0"
+  },
+  "swift_versions": "5.0",
+  "version": "136.0.1",
+  "source": {
+    "git": "https://github.com/MyPureCloud/platform-client-sdk-ios.git",
+    "tag": "136.0.1"
+  },
+  "authors": "Genesys Developer Evangelists",
+  "social_media_url": "https://twitter.com/PureCloud_Dev",
+  "license": "MIT",
+  "homepage": "https://developer.mypurecloud.com/",
+  "description": "An iOS library to interface with the PureCloud Platform API",
+  "documentation_url": "https://developer.mypurecloud.com/api/rest/client-libraries/ios/",
+  "source_files": "build/src/**/*.swift",
+  "swift_version": "5.0"
+}
