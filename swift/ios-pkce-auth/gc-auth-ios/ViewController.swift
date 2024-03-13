@@ -240,7 +240,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
             PureCloudPlatformClientV2API.accessToken = self.gcAuthManager.accessToken
             self.getMe()
             break;
-        // >> START ios-pkce-auth-step-5
+        // >> END ios-pkce-auth-step-5
         case "error":
             imgUserProfileAvatar.image = nil
             lblUserName.text = "An error occured during login"
